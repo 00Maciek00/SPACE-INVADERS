@@ -48,9 +48,7 @@ SpaceInvadersExtended/
 ├── CHANGELOG.md
 ├── space.cpp
 ├── build.bat
-├── .gitignore
-├── .gitattributes
-└── .github/workflows/build.yml
+└── .gitignore
 ```
 
 ---
@@ -176,9 +174,7 @@ SpaceInvadersExtended/
 ├── CHANGELOG.md
 ├── space.cpp
 ├── build.bat
-├── .gitignore
-├── .gitattributes
-└── .github/workflows/build.yml
+└── .gitignore
 ```
 
 ---
