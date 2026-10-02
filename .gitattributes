@@ -1,0 +1,14 @@
+# Normalize line endings / Normalizacja koncow linii
+* text=auto
+
+# Batch files must keep CRLF / Pliki .bat musza miec CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Sources are UTF-8 / Zrodla sa w UTF-8
+*.cpp text
+*.md  text
+
+# Binary
+*.exe binary
+*.dat binary
