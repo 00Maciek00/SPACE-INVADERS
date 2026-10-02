@@ -2,6 +2,8 @@
 
 [Polski](#polski) | [English](#english)
 
+![Space Invaders Extended — menu główne / main menu](docs/screenshot.png)
+
 ---
 
 ## Polski
@@ -48,7 +50,13 @@ SpaceInvadersExtended/
 ├── CHANGELOG.md
 ├── space.cpp
 ├── build.bat
-└── .gitignore
+├── .gitignore
+├── .gitattributes
+├── docs/
+│   └── screenshot.png
+└── .github/
+    └── workflows/
+        └── build.yml
 ```
 
 ---
@@ -99,7 +107,7 @@ Aby wyzerować wszystko, usuń ten katalog. Gdy nie da się go utworzyć, pliki 
 - **Dźwięk:** efekty używają `PlaySound`, więc nowy efekt przerywa poprzedni.
 - **DPI:** okno nie jest świadome DPI, na ekranach high-DPI skaluje je Windows.
 - **Zapis gry** ma nagłówek i walidację, uszkodzony lub obcy plik jest ignorowany.
-- **Kompilatory:** kod zbudowano na MSVC 19.51 (Visual Studio 18) oraz MinGW-w64 GCC 13.
+- **Kompilacja MSVC** jest docelowa; kod sprawdzono na MinGW-w64 GCC 13.
 
 ---
 
@@ -174,7 +182,13 @@ SpaceInvadersExtended/
 ├── CHANGELOG.md
 ├── space.cpp
 ├── build.bat
-└── .gitignore
+├── .gitignore
+├── .gitattributes
+├── docs/
+│   └── screenshot.png
+└── .github/
+    └── workflows/
+        └── build.yml
 ```
 
 ---
@@ -225,7 +239,7 @@ Delete this folder to reset everything. If it cannot be created, the files go to
 - **Sound:** effects use `PlaySound`, so a new effect interrupts the previous one.
 - **DPI:** the window is not DPI-aware, Windows scales it on high-DPI displays.
 - **Save game** has a header and is validated, a corrupted or foreign file is ignored.
-- **Compilers:** the code was built with MSVC 19.51 (Visual Studio 18) and MinGW-w64 GCC 13.
+- **MSVC build** is the target; the code was verified with MinGW-w64 GCC 13.
 
 ---
 
